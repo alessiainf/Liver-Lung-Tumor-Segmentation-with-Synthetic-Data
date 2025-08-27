@@ -9,11 +9,11 @@ We tested whether synthetic tumors generated automatically can replace manual an
 
 - Synthetic liver tumor generation
 
-<img src="assets/liver_tumor.png" width="100%">
+<img src="assets/liver_tumor.png" width="70%">
 
 - Synthetic lung nodule generation
 
-<img src="assets/lung_nodule.png" width="100%">
+<img src="assets/lung_nodule.png" width="70%">
 
 ---
 
