@@ -60,10 +60,13 @@ The models weights are available here: [Download weights](https://www.youtube.co
 ## Repository Structure
 
 ```plaintext
-.
-├── FINAL_NOTEBOOK.ipynb   # Main Jupyter Notebook with full pipeline
-├── .ipynb                 # Lung nodule notebook for reproduciibility
-├── .ipynb                  # Liver tumor notebook for reproduciibility
+
+├── FINAL_NOTEBOOK.ipynb     # Main Jupyter Notebook with full pipeline
+├── assets                   # Images used for README.md
+  ├── liver_tumor.png        # Image of a synthetic liver tumor
+  └── lung_nodule.png        # Image of a synthetic lung nodule
+├── LungNodule_Generation.ipynb  # Lung nodule notebook for reproduciibility
+├── LiverTumor_Generation.ipynb  # Liver tumor notebook for reproduciibility
 └── README.md              # Project documentation
 ```
 ---
