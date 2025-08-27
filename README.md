@@ -22,18 +22,16 @@ We tested whether synthetic tumors generated automatically can replace manual an
 We used two different datasets in our experiments:
 
 - **Liver tumor generation**  
-  For the liver experiments we strictly followed the instructions provided in the official repository of the paper: [Hu et al. – Label-Free Liver Tumor Segmentation (official repo)](https://github.com/MrGiovanni/label-free-liver-tumor-segmentation)  
-This ensured reproducibility of the original pipeline before extending it to other organs.
+  For the liver experiments we strictly followed the instructions provided in the official repository of the paper: [Hu et al. – Label-Free Liver Tumor Segmentation (official repo)](https://github.com/MrGiovanni/SyntheticTumors/blob/main/INSTALL.md)
 
 - **Lung nodule generation**  
-  For the lung experiments we used the [LNDb dataset](https://doi.org/10.48550/arXiv.1911.08434), which contains **294 CT scans** collected at the Centro Hospitalar e Universitário de São João (Porto, Portugal) between 2016 and 2018.  
-  This dataset provides annotated lung nodules under realistic clinical conditions, making it suitable to test whether the liver pipeline could be adapted to lung anatomy and pathologies.
+  For the lung experiments we used the [LNDb dataset](https://doi.org/10.48550/arXiv.1911.08434), which contains **294 annotated CT scans** collected at the Centro Hospitalar e Universitário de São João (Porto, Portugal) between 2016 and 2018.  
 
 You can download processed versions of the datasets, along with the JSON files, here: [Download datasets](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 
 ## Models Weights
-The models weights are available here: [Download weights](https://www.youtube.com/watch?
+The models weights are available here: [Download weights](https://www.youtube.com/watch)
 
 ---
 ## Results
