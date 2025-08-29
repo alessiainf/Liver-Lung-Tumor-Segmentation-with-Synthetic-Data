@@ -17,7 +17,7 @@ We tested whether synthetic tumors generated automatically can replace manual an
 
 ---
 
-## Datasets
+## Datasets & weights
 
 We used two different datasets in our experiments:
 
@@ -27,26 +27,23 @@ We used two different datasets in our experiments:
 - **Lung nodule generation**  
   For the lung experiments we used the [LNDb dataset](https://doi.org/10.48550/arXiv.1911.08434), which contains **294 annotated CT scans** collected at the Centro Hospitalar e Universitário de São João (Porto, Portugal) between 2016 and 2018.  
 
-You can download processed versions of the datasets, along with the JSON files, here: [Download datasets](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+You can download processed versions of the datasets, the JSON files and the models weights here: [Download](https://drive.google.com/drive/folders/1POFiiJLGIbaSIW0irq1wYjAQ-cH3PNQG?usp=drive_link)
 
-
-## Models Weights
-The models weights are available here: [Download weights](https://www.youtube.com/watch)
 
 ---
 ## Results
 
 ### Liver Experiments
 
-| Model             | Dice (Tumor) | Dice (Liver)| Total mean dice |
+| Model             | DSC (Tumor) | DSC (Liver)  | Total mean DSC  |
 |-------------------|--------------|-------------|-----------------|
 | U-Net (Synthetic) |     31.06%   |  84.13%     | 57.60%          |
 
 ### Lung Experiments
 
-| Model             | Dice (Nodule) | Dice (Lungs)| Total mean dice |
+| Model             | DSC (Nodule) | DSC (Lungs)  | Total mean DSC  |
 |-------------------|--------------|--------------|-----------------|
-| U-Net (Synthetic) |     **.**%   |  **.**%      | **.**%          |
+| U-Net (Synthetic) |     22.41%   |  96.62%      | 59.51%          |
 
 
 ## Conclusions
@@ -61,13 +58,14 @@ The models weights are available here: [Download weights](https://www.youtube.co
 
 ```plaintext
 
-├── FINAL_NOTEBOOK.ipynb     # Main Jupyter Notebook with full pipeline
-├── assets                   # Images used for README.md
-  ├── liver_tumor.png        # Image of a synthetic liver tumor
-  └── lung_nodule.png        # Image of a synthetic lung nodule
-├── LungNodule_Generation.ipynb  # Lung nodule notebook for reproduciibility
-├── LiverTumor_Generation.ipynb  # Liver tumor notebook for reproduciibility
-└── README.md              # Project documentation
+├── FINAL_NOTEBOOK.ipynb         # Main Jupyter Notebook with full pipeline
+├── assets                       # Images used for README.md
+  ├── liver_tumor.png            # Image of a synthetic liver tumor
+  └── lung_nodule.png            # Image of a synthetic lung nodule
+├── LungNodule_Generation.ipynb  # Lung nodule notebook for reproducibility
+├── LiverTumor_Generation.ipynb  # Liver tumor notebook for reproducibility
+├── presentation.pdf             # Project slides 
+└── README.md                    # Project documentation
 ```
 ---
 ## Authors
