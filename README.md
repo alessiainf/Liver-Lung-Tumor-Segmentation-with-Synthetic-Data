@@ -2,7 +2,7 @@
 Project *"Liver & Lung Tumor Segmentation with Synthetic Data"* for the **2024/2025 Neural Networks course**.
 
 This repository reimplements and extends the method proposed by [Hu et al., *Label-Free Liver Tumor Segmentation*, CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/papers/Hu_Label-Free_Liver_Tumor_Segmentation_CVPR_2023_paper.pdf).  
-We tested whether synthetic tumors generated automatically can replace manual annotations for training segmentation models, and extended the pipeline from liver to lung CT scans.
+Manual annotation of tumors is costly and limited by the scarcity of available data. To address this issue, we investigated the use of automatically generated synthetic tumors as an alternative to manual annotations for training segmentation models (e.g., U-Net). After validating the approach on liver CT scans, we extended the pipeline to lung CT data, assessing whether automatic generation can yield comparable or even improved performance.
 
 
 ## Overview
