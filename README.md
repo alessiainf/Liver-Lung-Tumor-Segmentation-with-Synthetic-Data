@@ -54,6 +54,13 @@ You can download processed versions of the datasets, the JSON files and the mode
 
 ---
 
+## Requirements
+
+To reproduce the experiments, the following minimum hardware requirements are recommended:
+
+* Liver experiments: at least 16 GB RAM
+* Lung experiments: at least 32 GB RAM
+
 ## Repository Structure
 
 ```plaintext
