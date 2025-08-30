@@ -52,6 +52,16 @@ You can download processed versions of the datasets, the JSON files and the mode
 
 - Future work: improve realism of synthetic lesions using generative models.
 
+## References
+*   Chen, Q., Chen, X., Song, H., Xiong, Z., Yuille, A. L., Chen, W., & Zhou, Z. (2024). Towards generalizable tumor synthesis. arXiv preprint 	arXiv:2402.19470. https://doi.org/10.48550/arXiv.2402.19470
+
+*   Pedrosa, J., Novais, P., Rodrigues, P. P., Bernardino, A., & Campilho, A. (2019). LNDb: a lung nodule database on computed tomography. arXiv preprint arXiv:1911.08434. https://doi.org/10.48550/arXiv.1911.08434
+
+*   Loverdos, K., Fotiadis, A., Kontogianni, C., Iliopoulou, M., & Gaga, M. (2019). Lung nodules: A comprehensive review on current approach and management. Annals of Thoracic Medicine, 14(4), 226–238. https://doi.org/10.4103/atm.ATM_110_19
+
+* MONAI Project. (2023). 3D segmentation: UNETR on BTCV dataset [Jupyter Notebook]. GitHub. https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/unetr_btcv_segmentation_3d.ipynb
+
+
 ---
 
 ## Requirements
